@@ -32,17 +32,15 @@ ul {
   font-size: 12px;
   list-style: none;
 }
+body,
 img {
   background-position: center;
   margin: 0;
   clear: both;
   vertical-align: top;
-}
-body {
   background: #eaeaea;
   font-family: "Roboto", sans-serif;
 }
-
 .bacgroud,
 figure,
 ul {
@@ -67,4 +65,46 @@ ul {
   object-fit: cover;
   border-radius: 10px;
   margin-bottom: 5px;
+}
+.socialLinks {
+  margin-top: 4rem;
+
+  list-style: none;
+  padding: 0;
+
+  display: flex;
+  gap: 0.5rem;
+  position: relative;
+  justify-content: center;
+  border-radius: 5%;
+  margin-bottom: 5%;
+  background-color: #eaeaea;
+}
+
+li {
+  position: relative;
+}
+
+li.youtube:hover {
+  top: -10px;
+  margin-top: -10px;
+  transition: 0.4s;
+}
+
+li.facebook:hover {
+  top: -10px;
+  margin-top: -10px;
+  transition: 0.4s;
+}
+
+li.instagram:hover {
+  top: -10px;
+  margin-top: -10px;
+  transition: 0.4s;
+}
+
+li.twitter:hover {
+  top: -10px;
+  margin-top: -10px;
+  transition: 0.4s;
 }
